@@ -130,3 +130,11 @@ font-size: 1em;
     text-align: center;
     padding-top: 10px;
 }
+.social-media
+{
+    float: left;
+}
+.chat-star
+{
+    float: right;
+}
