@@ -1,8 +1,22 @@
 body
 {
     background-color: #cccccc;
+   
 }
+@media only screen and (max-width: 768px){
 
+    html, body { overflow-x:hidden; }
+
+}
+@media only screen and (min-width: 1200px){
+
+    html, body 
+    { 
+        overflow-x:hidden; 
+        justify-content: center;
+    }
+
+}
 #header
 {
     background-color: black;
@@ -104,6 +118,7 @@ font-size: 1em;
     background-color: white;
     width: 300px;
     height: 400px;
+   
 }
 #d
 {
@@ -122,6 +137,8 @@ font-size: 1em;
     background-color: #3fa9f5;
     width: 840px;
     height: 50px;
+ 
+   
 
 }
 #b h5
