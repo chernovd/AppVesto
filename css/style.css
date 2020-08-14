@@ -7,11 +7,75 @@ body
 {
     background-color: black;
 }
-#header .title
+#header .spark
 {
-    color: blanchedalmond;
+    color: white;
+    font-size: 2em;
+    padding-right: 10px;
+    
+}
+#header .left #live
+{
+    color: red;
+    padding-left: 50px;
+    
+}
+#header .title 
+{
+    width: auto;
+    height: 50px; 
+    float: left;  
+}
+#header .title p
+{
+    margin-top: -10px;
+}
+
+#header .left .events
+{
+    float: left;
+    height: 60px;
+    border-left: 1px solid;
+    border-color: gray;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#header .events p
+{
+font-size: 1em;
 }
 .main
 {
     height: 600px;
+}
+#header .left
+{
+    float: left;
+}
+#header .right
+{
+    float: right;
+}
+
+#header .right .events
+{
+    float: left;
+    height: 60px;
+    border-right: 1px solid;
+    border-color: gray;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#header .right #live
+{
+    color: red;
+    padding-left: 10px;
+}
+#header .right title
+{
+    margin-left: 10px;
+}
+#header .right .spark
+{ 
+    padding-left: 10px;   
 }
